@@ -22,4 +22,4 @@ interface NoteDao {
     fun getAllNotes(): LiveData<List<Note>>
 }
 
-// LIVE DATA is an observeable data holder class. Through this we can know when our list is updating and we can observe it.
+// LIVE DATA is an observable data holder class. Through this we can know when our list is updating and we can observe it.
